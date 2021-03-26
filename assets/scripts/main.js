@@ -73,19 +73,23 @@ function imageView(src, ext, title, link, index){
     document.querySelector(".container").classList.add("backgroundBlur");
     mode.style.display = "none";
     document.querySelector(".image").src = document.body.classList.contains("dark") ? `assets/images/desktop/${src}_dark.${ext}` : `assets/images/desktop/${src}.${ext}`;
-    document.querySelector(".pf-desc").querySelector('p').innerHTML = `<a href="${link}">${title}</a>`;
     document.querySelector(".imageView").style.display = "block";
 
-    document.getElementById("leftIndex").innerText = `${index == 0 ? 1 : index-1}`;
-    document.getElementById("rightIndex").innerText = `${index == 1 ? 0 : index+1}`;
+    document.querySelector(".image").addEventListener("load", ()=>{
+        document.querySelector(".image").style.display = "block";
+        document.querySelector(".pf-desc").querySelector('p').innerHTML = `<a href="${link}">${title}</a>`;
 
-    document.onkeydown = (e) => switchImage(e.code, false);
-
-    document.querySelector(".imageView").addEventListener("click", (event)=>{
-        if(event.target !== document.querySelector(".image") && event.target !== document.querySelector(".ArrowLeft") &&
-            event.target !== document.querySelector(".image-right") && event.target !== document.querySelector(".arrow.left") &&
-            event.target !== document.querySelector(".arrow.right")) return imageClose();
-    }, true)
+        document.getElementById("leftIndex").innerText = `${index == 0 ? 1 : index-1}`;
+        document.getElementById("rightIndex").innerText = `${index == 1 ? 0 : index+1}`;
+    
+        document.onkeydown = (e) => switchImage(e.code, false);
+    
+        document.querySelector(".imageView").addEventListener("click", (event)=>{
+            if(event.target !== document.querySelector(".image") && event.target !== document.querySelector(".ArrowLeft") &&
+                event.target !== document.querySelector(".image-right") && event.target !== document.querySelector(".arrow.left") &&
+                event.target !== document.querySelector(".arrow.right")) return imageClose();
+        }, true)
+    });
 }
 function switchImage(direction){
     if(direction == "ArrowLeft") return document.getElementById(document.getElementById("leftIndex").innerText).click();
@@ -96,6 +100,7 @@ function imageClose(){
     document.querySelector(".container").classList.remove("backgroundBlur");
     mode.style.display = "block";
     document.querySelector(".image").src = "";
+    document.querySelector(".image").style.display = "none";
     document.querySelector(".imageView").style.display = "none";
     document.onkeydown = '';
 }

@@ -103,6 +103,26 @@ body.dark{
     background: rgba(25, 25, 25, 0.5);
     animation: appear 0.5s;
 }
+.load-ring {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+  }
+  .load-ring:after {
+    display: block;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    content: " ";
+    border: 5px solid var(--highlight-color);
+    border-radius: 50%;
+    border-color: var(--highlight-color) transparent var(--highlight-color) transparent;
+    animation: load-ring 1s linear infinite;
+  }
 .close{
     cursor: pointer;
     position: absolute;
@@ -111,10 +131,8 @@ body.dark{
     width: 35px;
     height: 35px;
     text-align: center;
-    font-size: 20px;
-    border: 2px solid var(--border-color);
-    border-radius: 50%;
-    color: #ffffff;
+    font-size: 25px;
+    font-weight: bolder;
     background: transparent;
 }
 .close p{
@@ -122,11 +140,13 @@ body.dark{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: var(--border-color);
 }
-.close:hover{
-    background: var(--border-color)
+.close p:hover{
+    color: #ffffff;
 }
 .image{
+    display: none;
     position: relative;
     top: 50%;
     left: 50%;
@@ -301,9 +321,6 @@ nav .info .info-row{
 nav .info .info-row:first-child{
     left: 0;
 }
-nav .info .info-row:nth-child(2){
-    position: relative;
-}
 nav .info .info-row:last-child{
     right: 0;
 }
@@ -431,7 +448,7 @@ article{
     position: relative;
     text-align: left;
     line-height: 25px;
-    font-size: 12px;
+    font-size: 10px;
     color: var(--p-color);
 }
 .school label[name="type"]{
@@ -536,6 +553,14 @@ footer span li strong{
         width: 100%;
     }
 }
+@keyframes load-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 @media (max-width: 1650px){
     nav{
         padding: 50px;
@@ -645,10 +670,8 @@ footer span li strong{
     .desc table td h3{
         font-size: 15px;
     }
-    .school label[name="time"],
-    .school label[name="place"],
     .school label[name="type"]{
-        font-size: 11px;
+        font-size: 12px;
     }
     .school #desc{
         font-size: 13px;
@@ -750,17 +773,11 @@ footer span li strong{
     .school label[name="time"],
     .school label[name="place"],
     .school label[name="type"]{
-        left: 5%;
-        font-size: 10px;
-    }
-    .school h2,
-    .school label[name="time"],
-    .school label[name="place"],
-    .school label[name="type"]{
         top: 20px;
+        left: 5%;
     }
-    .school label[name="type"]{
-        font-size: 12px;
+    .school h2{
+        top: 20px;
     }
     .school #desc{
         left: 55%;
@@ -804,7 +821,7 @@ footer span li strong{
         right: 20%;
     }
     nav{
-        min-height: 650px;
+        min-height: 550px;
         height: auto;
     }
     nav img{
@@ -885,9 +902,10 @@ footer span li strong{
         display: block;
         position: relative;
         left: 5%;
+        margin-top: 5px;
         width: 90%;
         line-height: 20px;
-        font-size: 10px;
+        font-size: 11px;
     }
     .mode{
         top: 20px;
