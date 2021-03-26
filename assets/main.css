@@ -108,7 +108,6 @@ body.dark{
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 5px;
     width: 35px;
     height: 35px;
     text-align: center;
@@ -117,6 +116,12 @@ body.dark{
     border-radius: 50%;
     color: #ffffff;
     background: transparent;
+}
+.close p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .close:hover{
     background: var(--border-color)
@@ -607,6 +612,22 @@ footer span li strong{
     }
 }
 @media (max-width: 1300px){
+    .ArrowLeft,
+    .ArrowRight,
+    .arrow{
+        transition: 0s;
+    }
+    .ArrowLeft:hover,
+    .ArrowRight:hover{
+        background: rgba(0, 0, 0, 0.5);
+        transition: 0s;
+    }
+    .ArrowLeft:hover > .arrow,
+    .ArrowRight:hover > .arrow{
+        border: solid #ffffff;
+        border-width: 0 10px 10px 0;
+        transition: 0s;
+    }
     article{
         left: 45%;
         width: 750px;
