@@ -154,6 +154,9 @@ body.dark{
     height: auto;
     border: 2px solid var(--border-color);
     border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .ArrowLeft,
 .ArrowRight{
@@ -253,6 +256,9 @@ nav img{
     height: 200px;
     border: 2px solid var(--border-color);
     border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     animation: rise 1s ease-in-out 0.25s backwards;
 }
 nav h3{
@@ -373,7 +379,10 @@ article{
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100px;
-    height: 100px; 
+    height: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .desc .skills,
 .desc table{
@@ -474,6 +483,10 @@ article{
     border: 2px solid var(--p-color);
     border-radius: 20px;
     background: var(--body-background);
+    user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     animation: appear 1s ease-in-out 0.25s backwards;
 }
 .circle{
