@@ -1,11 +1,9 @@
 .darkOn{
     background: var(--body-color);
-    transition: all 0.25s ease;
 }
 .circleOn{
     transform: translateX(20px);
     background: var(--circle-background);
-    transition: all 0.25s ease;
 }
 .ghostNav{
     position: relative;
@@ -190,7 +188,7 @@ body.dark{
     padding: 15px;
     border: solid var(--border-color);
     border-width: 0 10px 10px 0;
-    transition: all 0.25s ease;
+    transition: border 0.25s ease;
 }
 .left{
     transform: rotate(135deg);
@@ -203,13 +201,11 @@ body.dark{
 .ArrowLeft:hover,
 .ArrowRight:hover{
     background: rgba(0, 0, 0, 0.5);
-    transition: all 0.25s ease;
 }
 .ArrowLeft:hover > .arrow,
 .ArrowRight:hover > .arrow{
     border: solid #ffffff;
     border-width: 0 10px 10px 0;
-    transition: all 0.25s ease;
 }
 .pf-desc{
     position: absolute;
@@ -479,7 +475,6 @@ article{
     border-radius: 20px;
     background: var(--body-background);
     animation: appear 1s ease-in-out 0.25s backwards;
-    transition: all 0.25s ease;
 }
 .circle{
     cursor: pointer;
@@ -494,7 +489,7 @@ article{
     white-space: nowrap;
     border-radius: 50%;
     background: var(--circle-background);
-    transition: all 0.25s ease;
+    transition: transform 0.25s ease-in-out;
 }
 .circle .fas.fa-moon{
     display: table-cell;
