@@ -292,7 +292,7 @@ nav p{
     letter-spacing: 0.5px;
     word-wrap: break-word;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--p-color);
     animation: rise 1s ease-out 1s backwards;
 }
@@ -372,6 +372,7 @@ article{
     line-height: 30px;
     word-wrap: break-word;
     font-size: 18px;
+    font-weight: 400;
     color: var(--p-color);
 }
 .desc img{
@@ -423,7 +424,9 @@ article{
     display: inline;
     text-align: left;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
     font-size: 16px;
+    font-weight: 500;
     color: var(--title-color);
 }
 .skills .skill-col .bar,
@@ -528,7 +531,7 @@ footer span li{
     letter-spacing: 0.5px;
     line-height: 25px;
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--p-color);
 }
 footer span li strong{
