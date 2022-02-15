@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+*{
+    box-sizing: border-box;
+    font-family: "New Tegomin", serif;
+}
+html, body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+a{
+    color: #ffc800;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.no-script{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #0a0f14;
+}
+.no-script-content{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 15px 5px rgba(0,0,0,.05), 0 10px 15px 5px rgba(0,0,0,.05);
+    border: 2px solid #dcdcdc;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.no-script-content img{
+    width: 200px;      
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.no-script-content #main-text{
+    font-size: 44px;
+}
+.no-script-content #sub-text{
+    font-size: 24px;
+}
+
+@media screen and(max-width: 1150px){
+    .no-script-content #main-text{
+        font-size: 34px;
+    }
+    .no-script-content #sub-text{
+        font-size: 17px;
+    }
+    .no-script-content img{
+        width: 100px;
+    }
+}
