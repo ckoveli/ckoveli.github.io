@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.4604552b.css",
-    "main.js": "./static/js/main.49779ba8.js",
+    "main.js": "./static/js/main.0da7821f.js",
     "static/media/profile.jpeg": "./static/media/profile.194f122df2adb62d49b9.jpeg",
-    "static/media/CV_VELICKOVICDJ.pdf": "./static/media/CV_VELICKOVICDJ.5b0816456f05f7ffa3ba.pdf",
     "static/media/plist-file-icon.svg": "./static/media/plist-file-icon.55b51b06bc5376846299555f364c1b09.svg",
     "index.html": "./index.html",
     "static/media/link-icon.svg": "./static/media/link-icon.f2e652b8d7f08f4aa09ac7a71e497de8.svg",
     "static/media/status-icon.svg": "./static/media/status-icon.c2dc9d8d01edaffe80be0cae10890c32.svg",
     "main.4604552b.css.map": "./static/css/main.4604552b.css.map",
-    "main.49779ba8.js.map": "./static/js/main.49779ba8.js.map"
+    "main.0da7821f.js.map": "./static/js/main.0da7821f.js.map"
   },
   "entrypoints": [
     "static/css/main.4604552b.css",
-    "static/js/main.49779ba8.js"
+    "static/js/main.0da7821f.js"
   ]
 }
