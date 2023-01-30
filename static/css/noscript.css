@@ -14,9 +14,7 @@ a{
     color: #ffc800;
     text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
-}
+a:hover{ text-decoration: underline }
 .no-script{
     display: flex;
     width: 100vw;
@@ -42,21 +40,11 @@ a:hover{
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
-.no-script-content #main-text{
-    font-size: 44px;
-}
-.no-script-content #sub-text{
-    font-size: 24px;
-}
+.no-script-content #main-text{ font-size: 44px }
+.no-script-content #sub-text{ font-size: 24px }
 
 @media screen and(max-width: 1150px){
-    .no-script-content #main-text{
-        font-size: 34px;
-    }
-    .no-script-content #sub-text{
-        font-size: 17px;
-    }
-    .no-script-content img{
-        width: 100px;
-    }
+    .no-script-content #main-text{ font-size: 34px }
+    .no-script-content #sub-text{ font-size: 17px }
+    .no-script-content img{ width: 100px }
 }

@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.aff5c055.css",
-    "main.js": "/static/js/main.758c11fb.js",
-    "static/media/m-o-p.png": "/static/media/m-o-p.c507a5dce8db3aaf92fe.png",
+    "main.css": "/static/css/main.4604552b.css",
+    "main.js": "/static/js/main.09853e33.js",
     "static/media/profile.jpeg": "/static/media/profile.194f122df2adb62d49b9.jpeg",
-    "static/media/t-t-t.png": "/static/media/t-t-t.058e8e91470e38dc8a5d.png",
+    "static/media/CV_VELICKOVICDJ.pdf": "/static/media/CV_VELICKOVICDJ.5b0816456f05f7ffa3ba.pdf",
+    "static/media/plist-file-icon.svg": "/static/media/plist-file-icon.55b51b06bc5376846299555f364c1b09.svg",
     "index.html": "/index.html",
-    "main.aff5c055.css.map": "/static/css/main.aff5c055.css.map",
-    "main.758c11fb.js.map": "/static/js/main.758c11fb.js.map"
+    "static/media/link-icon.svg": "/static/media/link-icon.f2e652b8d7f08f4aa09ac7a71e497de8.svg",
+    "static/media/status-icon.svg": "/static/media/status-icon.c2dc9d8d01edaffe80be0cae10890c32.svg",
+    "main.4604552b.css.map": "/static/css/main.4604552b.css.map",
+    "main.09853e33.js.map": "/static/js/main.09853e33.js.map"
   },
   "entrypoints": [
-    "static/css/main.aff5c055.css",
-    "static/js/main.758c11fb.js"
+    "static/css/main.4604552b.css",
+    "static/js/main.09853e33.js"
   ]
 }
