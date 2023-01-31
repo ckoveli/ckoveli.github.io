@@ -1,0 +1,16 @@
+{
+  "short_name": "OC Sanity Checker",
+  "name": "OpenCore Sanity Checker",
+  "icons": [
+    {
+      "src": "./static/img/favicon/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/",
+  "start_url": "https://velickovicdj.github.io/opencore",
+  "display": "standalone",
+  "theme_color": "#2c3033",
+  "background_color": "#2c3033"
+}
