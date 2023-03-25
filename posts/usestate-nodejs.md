@@ -8,7 +8,9 @@ In this article, we'll walk through the code for building your own **useState ho
 
 Before we dive into building the **useState hook**, let's take a moment to understand what it does. 
 
-The **useState hook** is a function that returns an array with two elements: the current state value and a function to update the state value. When the state value is updated, React will automatically re-render the component to reflect the new state.
+The **useState hook** is a function that returns an array with two elements: the current state value and a function to update the state value. 
+
+When the state value is updated, React will automatically re-render the component to reflect the new state.
 
 ## Building the useState Hook in Node.js
 
@@ -47,11 +49,11 @@ Now that we have built the **useState hook**, let's see how we can use it in a N
 ```js
 const [count, setCount] = useState(0);
 
-console.log(count()); // outputs 0
+console.log(count()); // 0
 
 setCount(1);
 
-console.log(count()); // outputs 1
+console.log(count()); // 1
 ```
 
 

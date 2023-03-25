@@ -1,7 +1,8 @@
 {  
-    "tags": ["JavaScript", "React", "Java", "Projects", "Random"],
+    "tags": ["JavaScript", "Node.js", "React", "Java", "Projects", "Random"],
     "posts": [
         { "name": "OpenCore Sanity Checker", "date": "15. Aug 2022", "url": "opencore-sanity-checker", "tag": "Projects" },
-        { "name": "Build React useState hook yourself for Node.js", "date": "25. Mar 2023", "url": "usestate-nodejs", "tag": "JavaScript" }
+        { "name": "Intro to web scraping with Node.js", "date": "22. Mar 2023", "url": "web-scraping-nodejs", "tag": "Node.js" },
+        { "name": "Build React useState Hook yourself in Node.js", "date": "25. Mar 2023", "url": "usestate-nodejs", "tag": "Node.js" }
     ]
 }
