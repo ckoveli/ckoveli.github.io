@@ -1,0 +1,22 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://velickovicdj.github.io/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://velickovicdj.github.io/#/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://velickovicdj.github.io/#/blog</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://velickovicdj.github.io/#/blog/*</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://velickovicdj.github.io/#/about</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>

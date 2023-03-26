@@ -14,7 +14,7 @@
     }
   ],
   "scope": "/app",
-  "start_url": "https://velickovicdj.github.io",
+  "start_url": "https://velickovicdj.github.io/",
   "display": "standalone",
   "theme_color": "#0a0f14",
   "background_color": "#0a0f14"
