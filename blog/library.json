@@ -13,21 +13,28 @@
             "name": "OpenCore Sanity Checker",
             "date": "15. Aug 2022",
             "url": "opencore-sanity-checker",
-            "metaDescription": "If you're a Hackintosh enthusiast, you're probably familiar with the challenges of ensuring system stability. That's where OpenCore Sanity Checker comes in! In my latest blog post, I explore this powerful tool and show you how to use it to ensure that your Hackintosh system is running smoothly. You'll learn how to set up and use OpenCore Sanity Checker, interpret its results, and troubleshoot any issues that arise. So, if you're a Hackintosh user looking to take your system to the next level, check out my blog post now!"
+            "metaDescription": "If you're a Hackintosh enthusiast, you're probably familiar with the challenges of ensuring system stability. That's where OpenCore Sanity Checker comes in! In this blog post, I'll guide you through the process of setting up and using the tool to ensure system stability. You'll learn how to interpret the tool's results and troubleshoot any issues that may arise. If you want to take your Hackintosh system to the next level, be sure to check out my blog post now!"
         },
         {
             "tag": "Node.js",
             "name": "Intro to web scraping with Node.js",
             "date": "22. Mar 2023",
-            "url": "web-scraping-nodejs",
-            "metaDescription": "Looking to learn web scraping with Node.js? Look no further than my website! In this blog post, I share my knowledge and experience with web scraping, focusing specifically on how to use Node.js to scrape data from websites. You'll learn the fundamentals of web scraping, as well as some advanced techniques and best practices. So, whether you're a developer looking to expand your skillset or a data enthusiast looking to extract insights from the web, this blog post is for you. Check it out on my website now!"
+            "url": "intro-to-web-scraping-with-nodejs",
+            "metaDescription": "Learn the basics of web scraping with Node.js through my latest blog post. Discover how to extract data from websites using Node.js and gain insights into advanced techniques and best practices. Whether you're a developer looking to expand your skills or a data enthusiast seeking to extract insights from the web, this tutorial is perfect for you. Read more on my website now!"
         },
         {
             "tag": "Node.js",
             "name": "Build React useState Hook yourself in Node.js",
             "date": "25. Mar 2023",
-            "url": "usestate-nodejs",
-            "metaDescription": "Curious about using useState in Node.js? My latest blog post has got you covered! In this post, I explore how to use the popular React hook in a Node.js environment. You'll learn how to set up your Node.js project, create a basic Node.js app with useState, and explore some best practices and common pitfalls to avoid. So, if you're a Node.js developer looking to incorporate React into your projects, check out my blog post now!"
+            "url": "build-react-usestate-hook-yourself-in-nodejs",
+            "metaDescription": "Looking to use the popular React hook, useState, in Node.js? Check out my latest blog post! You'll learn how to incorporate this powerful tool into your Node.js projects and avoid common pitfalls along the way. Whether you're a seasoned Node.js developer or new to the platform, this post is a must-read for anyone looking to take their React skills to the next level."
+        },
+        {
+            "tag": "Random",
+            "name": "Simplify Your Mac Cleaning Process with This Shell Script",
+            "date": "31. Mar 2023",
+            "url": "simplify-mac-cleaning-shell-script",
+            "metaDescription": "Tired of using third-party apps to clean up your Mac? Learn how to use a simple shell script to clean up your macOS junk files, including user and system cache files, log files, temporary files, and Xcode junk."
         }
     ]
 }
