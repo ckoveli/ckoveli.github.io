@@ -19,4 +19,8 @@
     <loc>https://velickovicdj.github.io/#/about</loc>
     <changefreq>yearly</changefreq>
   </url>
+  </url>
+    <loc>https://velickovicdj.github.io/O3C/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
