@@ -358,12 +358,7 @@
 	<key>UEFI</key>
 	<dict>
 		<key>APFS</key>
-		<dict status="warning">
-			<key>MinDate</key>
-			<string>Unless you are targeting specific OS X versions, leave this as <bold>0</bold> because otherwise, it may cause certain APFS drivers not to show.</string>
-			<key>MinVersion</key>
-			<string>Unless you are targeting specific OS X versions, leave this as <bold>0</bold> because otherwise, it may cause certain APFS drivers not to show.</string>
-		</dict>
+		<dict />
 		<key>ConnectDrivers</key>
 		<dict>
 			<key status="warning">NO</key>

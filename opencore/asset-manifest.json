@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/opencore/static/css/main.9ac9b403.css",
-    "main.js": "/opencore/static/js/main.e8e21a28.js",
-    "static/media/plist-file-icon.svg": "/opencore/static/media/plist-file-icon.55b51b06bc5376846299555f364c1b09.svg",
+    "main.css": "/opencore/static/css/main.fcdb350a.css",
+    "main.js": "/opencore/static/js/main.fef7d46a.js",
+    "static/media/logo.png": "/opencore/static/media/logo.6f58fe469906b5eb4115.png",
+    "static/media/plist.svg": "/opencore/static/media/plist.55b51b06bc5376846299555f364c1b09.svg",
     "index.html": "/opencore/index.html",
-    "static/media/link-icon.svg": "/opencore/static/media/link-icon.f2e652b8d7f08f4aa09ac7a71e497de8.svg",
-    "static/media/status-icon.svg": "/opencore/static/media/status-icon.d0f06c9dc569df146e9bcd9c04520cc4.svg",
-    "main.9ac9b403.css.map": "/opencore/static/css/main.9ac9b403.css.map",
-    "main.e8e21a28.js.map": "/opencore/static/js/main.e8e21a28.js.map"
+    "static/media/link.svg": "/opencore/static/media/link.f2e652b8d7f08f4aa09ac7a71e497de8.svg",
+    "static/media/status.svg": "/opencore/static/media/status.d0f06c9dc569df146e9bcd9c04520cc4.svg",
+    "main.fcdb350a.css.map": "/opencore/static/css/main.fcdb350a.css.map",
+    "main.fef7d46a.js.map": "/opencore/static/js/main.fef7d46a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ac9b403.css",
-    "static/js/main.e8e21a28.js"
+    "static/css/main.fcdb350a.css",
+    "static/js/main.fef7d46a.js"
   ]
 }
