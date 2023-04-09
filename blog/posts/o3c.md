@@ -30,7 +30,7 @@ Here are some example screenshots of the tool in action:
 
 ![Screenshot 2](/blog/posts/img/o3c/screenshot2.png)
 
-**Screenshot 2**: A screenshot of [O3C](https://velickovicdj.github.io/O3C/) highlighting misconfigured properties in a *config.plist* file.
+**Screenshot 3**: A screenshot of [O3C](https://velickovicdj.github.io/O3C/) highlighting misconfigured properties in a *config.plist* file.
 
 ![Screenshot 3](/blog/posts/img/o3c/screenshot3.png)
 
