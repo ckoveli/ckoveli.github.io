@@ -16,6 +16,10 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://velickovicdj.github.io/#/apps</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://velickovicdj.github.io/#/about</loc>
     <changefreq>yearly</changefreq>
   </url>
