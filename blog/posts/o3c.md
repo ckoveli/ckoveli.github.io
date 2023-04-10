@@ -24,15 +24,15 @@ Here are some example screenshots of the tool in action:
 
 **Screenshot 1**: A screenshot of [O3C](https://velickovicdj.github.io/O3C/) initial screen.
 
-![Screenshot 1](/blog/posts/img/o3c/screenshot1.png)
+![Screenshot 1](/img/blog/o3c/screenshot1.png)
 
 **Screenshot 2**: A screenshot of [O3C](https://velickovicdj.github.io/O3C/) providing results of validating *config.plist* for an Intel KabyLake desktop running OpenCore 0.8.3.
 
-![Screenshot 2](/blog/posts/img/o3c/screenshot2.png)
+![Screenshot 2](/img/blog/o3c/screenshot2.png)
 
 **Screenshot 3**: A screenshot of [O3C](https://velickovicdj.github.io/O3C/) highlighting misconfigured properties in a *config.plist* file.
 
-![Screenshot 3](/blog/posts/img/o3c/screenshot3.png)
+![Screenshot 3](/img/blog/o3c/screenshot3.png)
 
 You can access the live app [here](https://velickovicdj.github.io/O3C/) and the source code is available on [GitHub](https://github.com/velickovicdj/O3C)
 
