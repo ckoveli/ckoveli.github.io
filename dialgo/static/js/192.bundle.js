@@ -1,2 +1,1 @@
 "use strict";(self.webpackChunkdialgo=self.webpackChunkdialgo||[]).push([[192],{9192:function(e,l,n){n.r(l),n.d(l,{default:function(){return a}});var t=n(7294),u=n(7904);function a(){return t.createElement(u.JX,{md:"8"},t.createElement("h2",null,"Main Menu"),t.createElement(u.X2,null,t.createElement(u.JX,null,t.createElement("h4",null,"File")),t.createElement(u.JX,null,t.createElement("h4",null,"Edit")),t.createElement(u.JX,null,t.createElement("h4",null,"Tools")),t.createElement(u.JX,null,t.createElement("h4",null,"View"))))}}}]);
-//# sourceMappingURL=192.bundle.js.map
