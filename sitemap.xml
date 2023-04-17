@@ -27,4 +27,8 @@
     <loc>https://velickovicdj.github.io/O3C/</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://velickovicdj.github.io/dialgo/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
