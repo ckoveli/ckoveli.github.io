@@ -90,8 +90,8 @@ void decode(int R[], int message[]) {
 void simulateNoise(int R[]) {
     srand(time(NULL));
     for (int i = 0; i < E; i++) {
-        int indeks = rand() % N; // koji bit ce promeniti vrednost
-        R[indeks] ^= 1; // menjanje vrednosti bita (0 u 1 ili 1 u 0)
+        int indeks = rand() % N; // bit that will flip
+        R[indeks] ^= 1; // flipping the bit (0 to 1 or 1 to 0)
     }
 }
 
