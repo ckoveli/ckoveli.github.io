@@ -37,6 +37,13 @@
             "date": "31. Mar 2023",
             "url": "simplify-mac-cleaning-shell-script",
             "metaDescription": "Tired of using third-party apps to clean up your Mac? Learn how to use a simple shell script to clean up your macOS junk files, including user and system cache files, log files, temporary files, and Xcode junk."
+        },
+        {
+            "tag": "C",
+            "name": "Hamming Code Encoding and Decoding Program in C",
+            "date": "10. May 2023",
+            "url": "hamming-code-encoding-decoding-c-program",
+            "metaDescription": "Learn how to encode and decode binary messages using Hamming code in C. This program uses generator and parity-check matrices to generate code words, check for errors, and correct one error if present. Experience a simulated noisy channel and discover how Hamming code can detect and correct transmission errors."
         }
     ]
 }
