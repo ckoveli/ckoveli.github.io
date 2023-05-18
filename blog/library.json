@@ -18,6 +18,14 @@
             "pinned": true
         },
         {
+            "tag": "Projects",
+            "name": "Dialgo - Flowchart Maker",
+            "date": "21. October 2022",
+            "url": "dialgo",
+            "metaDescription": "If you're a Hackintosh enthusiast, you're probably familiar with the challenges of ensuring system stability. That's where O3C comes in! In this blog post, I'll guide you through the process of setting up and using the tool to ensure system stability. You'll learn how to interpret the tool's results and troubleshoot any issues that may arise. If you want to take your Hackintosh system to the next level, be sure to check out my blog post now!",
+            "pinned": true
+        },
+        {
             "tag": "Node.js",
             "name": "Intro to Web Scraping with Node.js",
             "date": "22. Mar 2023",
