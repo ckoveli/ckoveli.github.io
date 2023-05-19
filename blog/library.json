@@ -12,7 +12,7 @@
         {
             "tag": "Projects",
             "name": "O3C - OpenCore Config Checker",
-            "date": "Aug 15, 2022",
+            "date": "Aug 15 2022",
             "url": "o3c",
             "metaDescription": "If you're a Hackintosh enthusiast, you're probably familiar with the challenges of ensuring system stability. That's where O3C comes in! In this blog post, I'll guide you through the process of setting up and using the tool to ensure system stability. You'll learn how to interpret the tool's results and troubleshoot any issues that may arise. If you want to take your Hackintosh system to the next level, be sure to check out my blog post now!",
             "pinned": true
@@ -20,7 +20,7 @@
         {
             "tag": "Projects",
             "name": "Dialgo - Flowchart Maker",
-            "date": "Oct 21, 2022",
+            "date": "Oct 21 2022",
             "url": "dialgo",
             "metaDescription": "Discover Dialgo, a fast and intuitive open-source app designed for students and professionals in programming and computer science. Simplify the process of visualizing complex processes, creating algorithms, and mapping out workflows with ease. Try Dialgo now and unlock the convenience of digital diagramming.",
             "pinned": true
@@ -28,28 +28,28 @@
         {
             "tag": "Node.js",
             "name": "Intro to Web Scraping with Node.js",
-            "date": "Mar 22, 2023",
+            "date": "Mar 22 2023",
             "url": "intro-to-web-scraping-with-nodejs",
             "metaDescription": "Learn the basics of web scraping with Node.js through my latest blog post. Discover how to extract data from websites using Node.js and gain insights into advanced techniques and best practices. Whether you're a developer looking to expand your skills or a data enthusiast seeking to extract insights from the web, this tutorial is perfect for you. Read more on my website now!"
         },
         {
             "tag": "Node.js",
             "name": "Build React useState Hook Yourself in Node.js",
-            "date": "Mar 25, 2023",
+            "date": "Mar 25 2023",
             "url": "build-react-usestate-hook-yourself-in-nodejs",
             "metaDescription": "Looking to use the popular React hook, useState, in Node.js? Check out my latest blog post! You'll learn how to incorporate this powerful tool into your Node.js projects and avoid common pitfalls along the way. Whether you're a seasoned Node.js developer or new to the platform, this post is a must-read for anyone looking to take their React skills to the next level."
         },
         {
             "tag": "Random",
             "name": "Simplify Your Mac Cleaning Process with This Shell Script",
-            "date": "Mar 31, 2023",
+            "date": "Mar 31 2023",
             "url": "simplify-mac-cleaning-shell-script",
             "metaDescription": "Tired of using third-party apps to clean up your Mac? Learn how to use a simple shell script to clean up your macOS junk files, including user and system cache files, log files, temporary files, and Xcode junk."
         },
         {
             "tag": "C",
             "name": "Hamming Code Encoding and Decoding Program in C",
-            "date": "May 10, 2023",
+            "date": "May 10 2023",
             "url": "hamming-code-encoding-decoding-c-program",
             "metaDescription": "Learn how to encode and decode binary messages using Hamming code in C. This program uses generator and parity-check matrices to generate code words, check for errors, and correct one error if present. Experience a simulated noisy channel and discover how Hamming code can detect and correct transmission errors."
         }
