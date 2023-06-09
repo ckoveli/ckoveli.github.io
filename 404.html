@@ -12,6 +12,8 @@
                 path = "/O3C";
             } else if (path.includes("dialgo")) {
                 path = "/dialgo";
+            } else {
+                path = "/#" + path;
             }
 
             window.location.replace("https://velickovicdj.github.io" + path);
