@@ -6,7 +6,8 @@
     </head>
     <body>
         <script>
-            window.location.replace("https://velickovicdj.github.io/#/"+window.location.pathname)
+            const path = window.location.pathname.toLowerCase();
+            window.location.replace("https://velickovicdj.github.io/" + (path === "o3c" || path === "dialgo") ? path : "#/" + path);
         </script>
     </body>
 </html>
